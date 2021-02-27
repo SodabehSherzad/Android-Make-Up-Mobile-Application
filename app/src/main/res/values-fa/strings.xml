@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">آرایش</string>
+    <string name="navigation_drawer_open">باز کردن نویکشن</string>
+    <string name="navigation_drawer_close">بسته کردن نویکشن</string>
+    <string name="nav_header_title">برنامه آموزشی آرایش</string>
+    <string name="nav_header_desc">نویکشن بالا</string>
+    <string name="action_settings">تنظیمات</string>
+
+    <string name="menu_tools">گالری</string>
+    <string name="menu_about">درباره ما</string>
+    <string name="menu_share">به اشتراک گذاری</string>
+    <string name="menu_home">صفحه اصلی</string>
+    <string name="menu_makeup">آرایش</string>
+    <string name="menu_category">کتگوری ها</string>
+    <string name="menu_detail">جزئیات</string>
+    <string name="app_profile">پروفایل برنامه</string>
+
+    <string name="face">آرایش صورت</string>
+    <string name="hair">مو</string>
+    <string name="nail">ناخن ها</string>
+
+    <string name="about_app">با استفاده از برنامه آموزش آرایش ، شما در مورد کانتورینگ ، آرایش چشم؛ آرایش لب برای مراسم گاه به گاه ، مهمانی ، عروسی یا هر نوع رویداد به صورت مرحله به مرحله. با تصاویر بصری و خارق العاده بسیار آسان ، ساده و کاربردی است. این برنامه آموزش آرایش قدم به قدم روش صحیح استفاده از ریمل ، قرار دادن خط چشم ، ایجاد چشم های دودی ، استفاده از پایه ، شکل دادن به ابروها ، استفاده از سرخ شدن ، بر روی رژ لب را مطابق با صورت و موارد دیگر نشان می دهد.</string>
+    <string name="idea">شما می توانید ایده خود را در مورد این برنامه به اشتراک بگذارید.</string>
+    <string name="develope">تهیه شده توسط سودابه شیرزاد</string>
+</resources>

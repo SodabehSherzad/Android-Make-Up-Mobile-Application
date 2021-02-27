@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.makeupstyle">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.makeupstyle.DetailsPhoto"
+            android:theme="@style/AppTheme.NoActionBlack"></activity>
+        <activity
+            android:name="com.example.makeupstyle.PhotosActivity"
+            android:label="@string/menu_tools"
+            android:parentActivityName="com.example.makeupstyle.MainActivity" />
+        <activity
+            android:name="com.example.makeupstyle.AboutActivity"
+            android:label="@string/menu_about"
+            android:theme="@style/AppTheme.NoAction" />
+        <activity
+            android:name="com.example.makeupstyle.DetailActivity"
+            android:label="@string/menu_detail"
+            android:theme="@style/AppTheme.NoAction" />
+        <activity
+            android:name="com.example.makeupstyle.SubcategoryActivity"
+            android:label="@string/menu_category"
+            android:parentActivityName="com.example.makeupstyle.MainActivity" />
+        <activity
+            android:name="com.example.makeupstyle.MakeupActivity"
+            android:label="@string/menu_makeup"
+            android:parentActivityName="com.example.makeupstyle.SubcategoryActivity" />
+        <activity
+            android:name="com.example.makeupstyle.MainActivity"
+            android:label="@string/menu_home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
